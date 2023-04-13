@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Scanner Test 2</title>
+</head>
+<body class="">
+    
+    <section class="" style="width: 70vh; border: red solid 1px;">
+        <form name="form1" action="#" id="formulario" class="">
+            <label for="id_extintor" class="">Escanea un producto:</label>
+            <img src="https://www.extinguidoresamerica.com.mx/wp-content/uploads/2018/01/logo_america-1-1-e1515503513447.png" alt="">
+            <input autocomplete="off" type="text" name="id_extintor" id="id_extintor" required class="" placeholder="código">
+            <div class="">
+                <button class="">Añadir</button>
+                <input type="button" id="products-btn" value="Mostrar todos los productos" onclick="showProducts()" class=""></input>
+            </div>
+            <p id="valueInput"></p>
+        </form>
+    </section>
+    <!-- <div class=""></div> -->
+
+    <section class="" style="width: 70vh; height:90vh; border: red solid 1px;">
+        <p class="">Productos añadidos:</p>
+        <div id="products" class="" style="border: red solid 1px;"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
